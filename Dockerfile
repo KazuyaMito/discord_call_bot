@@ -16,4 +16,3 @@ RUN pip install --upgrade setuptools
 RUN pip install discord.py[voice]
 RUN apt update
 RUN apt install -y ffmpeg
-RUN python /root/discord_bot/call.py
