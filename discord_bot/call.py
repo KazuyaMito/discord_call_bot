@@ -9,8 +9,8 @@ token = settings.TOKEN
 voice = {}
 channel = {}
 
-a = ctypes.util.find_library('opus')
-b = discord.opus.load_opus(a)
+# a = ctypes.util.find_library('opus')
+# b = discord.opus.load_opus(a)
 
 @bot.command()
 async def call(ctx):
