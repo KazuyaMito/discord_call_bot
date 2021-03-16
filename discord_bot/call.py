@@ -2,9 +2,10 @@ import discord
 from discord.ext import commands
 import traceback
 import ctypes
+import settings
 
 bot = commands.Bot(command_prefix='!')
-token = ''
+token = settings.TOKEN
 voice = {}
 channel = {}
 
