@@ -14,7 +14,7 @@ Dockerの導入方法、Dockerの基本的な使い方についてはここで�
 
 [ここ](https://discord.com/developers/applications)にアクセスし、New Applicationをクリックします。
 
-![](https://user-images.githubusercontent.com/38001048/111465178-1a711f80-8765-11eb-8e04-9aa18d35eef5.png)
+![](https://user-images.githubusercontent.com/38001048/111467245-8e142c00-8767-11eb-8afe-463cd1e60417.png)
 
 BotタブからAdd Botをクリックし、Botを作成します。
 
