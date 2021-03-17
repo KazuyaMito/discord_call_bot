@@ -10,6 +10,9 @@ ENV LC_ALL ja_JP.UTF-8
 ENV TX JST-9
 ENV TERM xterm
 
+WORKDIR /app
+ADD ./discord_bot /app
+
 RUN apt-get install -y vim less
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools

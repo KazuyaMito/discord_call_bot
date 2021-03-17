@@ -3,8 +3,7 @@ services:
   python3:
     restart: always
     build: .
-    container_name: 'python3'
-    working_dir: '/root/'
+    container_name: 'discord_call_bot'
+    working_dir: '/app/'
     tty: true
-    volumes:
-      - ./discord_bot:/root/discord_bot
+    command: python /app/call.py
