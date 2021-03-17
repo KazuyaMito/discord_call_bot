@@ -21,4 +21,4 @@ RUN pip install python-dotenv
 RUN apt update
 RUN apt install -y ffmpeg
 
-CMD ["/bin/bash", "python /app/call.py"]
+CMD python /app/call.py
