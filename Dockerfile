@@ -20,3 +20,5 @@ RUN pip install discord.py[voice]
 RUN pip install python-dotenv
 RUN apt update
 RUN apt install -y ffmpeg
+
+CMD python /app/call.py
